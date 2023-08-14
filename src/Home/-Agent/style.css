@@ -1,0 +1,88 @@
+.-Agent {
+    width: clamp(200px, 100%, 1100px);
+    min-height: 260px;
+    margin: 0 auto;
+    margin-top: 250px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--primary-colour, #3A0CA3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.-Agent div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.-Agent img {
+    width: 358px;
+    margin-top: -46px;
+}
+
+.-Agent div h2 {
+    color: var(--white, #FFF);
+
+
+    /* H2 - Semi Bold */
+    font-family: Poppins;
+    font-size: clamp(24px, 5vw, 39.8px);
+    font-style: normal;
+    font-weight: 600;
+    /* 118.09% */
+}
+
+.-Agent div p {
+    color: var(--white, #FFF);
+
+
+    /* Paragraph - Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* 162.5% */
+}
+
+.-Agent button {
+    padding: 19px 30px;
+    border-radius: 30px;
+    border: 1px solid var(--primary-colour, #3A0CA3);
+    background: var(--white, #FFF);
+    color: var(--primary-colour, #3A0CA3);
+    text-align: center;
+    cursor: pointer;
+
+    /* H5 - Buttons */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width:823px) {
+    .-Agent {
+        width: clamp(200px, 100%, 600px);
+        flex-wrap: wrap;
+        row-gap: 20px;
+        min-height: 200px;
+        padding-bottom: 30px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .-Agent img {
+        width: 200px;
+    }
+
+    .-Agent button {
+        width: 100px;
+        height: 50px;
+        padding: unset;
+    }
+}

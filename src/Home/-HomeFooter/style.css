@@ -1,0 +1,43 @@
+.-HomeFooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 118px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60px;
+}
+
+.-HomeFooter p {
+    color: var(--text-colour-3, #808080);
+    text-align: center;
+
+
+    /* H5 - Buttons */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.-HomeFooterImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 90px;
+}
+
+.SwiperHomFooter {
+    width: clamp(200px, 100%, 500px);
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .-HomeFooterImg {
+        display: none;
+    }
+
+    .SwiperHomFooter {
+        display: flex;
+    }
+}

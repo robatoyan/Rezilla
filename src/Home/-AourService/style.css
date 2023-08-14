@@ -1,0 +1,134 @@
+.-AourService {
+    width: 100%;
+    min-height: 752px;
+    background: rgba(164, 151, 151, 0.6);
+    margin-top: 207px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.-AourService h3 {
+    color: var(--text-colour-2, #2B2B2B);
+    text-align: center;
+
+    font-family: Poppins;
+    font-size: 19.4px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.91px;
+}
+
+.-AourService h2 {
+    color: var(--text-colour-1, #0B090A);
+    text-align: center;
+
+    /* H2 - Semi Bold */
+    font-family: Poppins;
+    font-size: 39.8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+    /* 118.09% */
+}
+
+.AourServer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.servic {
+    width: 340px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 60px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.servisReduce {
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    background: var(--colour-1, #4361EE);
+    box-shadow: 4px 10px 30px rgba(67, 97, 238, 0.400);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+}
+
+.servic h2 {
+    color: var(--text-colour-2, #2B2B2B);
+
+
+    /* H4 - Semibold */
+    font-family: Poppins;
+    font-size: 19.4px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.servic h3 {
+    color: var(--text-colour-3, #808080);
+    text-align: center;
+
+
+    /* Paragraph - Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+@media screen and (max-width:1150px) {
+    .-AourService {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+}
+
+@media screen and (max-width:400px) {
+    .-AourService {
+        padding-top: 80px;
+        margin-top: 100px;
+    }
+
+    .servic {
+        width: 200px;
+        padding: 10px;
+        row-gap: 15px;
+    }
+
+    .servic h3 {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .servisReduce {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}

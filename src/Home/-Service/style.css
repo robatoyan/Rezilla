@@ -1,0 +1,107 @@
+.-Service {
+    width: clamp(200px, 100%, 1205px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 210px;
+}
+
+.-Service h3 {
+    color: var(--colour-1, #4361EE);
+
+    font-family: Poppins;
+    font-size: 19.4px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.91px;
+    margin-left: 40px;
+}
+
+.-Service h2 {
+    color: var(--text-colour-2, #2B2B2B);
+
+
+    /* H2 - Semi Bold */
+    font-family: Poppins;
+    font-size: clamp(25px, 5vw, 39.8px);
+    font-style: normal;
+    font-weight: 600;
+    /* 118.09% */
+    margin-top: 30px;
+    margin-left: 40px;
+
+
+}
+
+.Services {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Servic {
+    position: relative;
+}
+
+.ServiceHomeData {
+    position: absolute;
+    z-index: 10;
+    bottom: 80px;
+    left: 60px;
+}
+
+.ServiceHomeData h4 {
+    color: var(--white, #FFF);
+
+    text-shadow: 2px 10px 30px rgba(0, 0, 0, 0.25);
+
+    /* H1 */
+    font-family: Poppins;
+    font-size: clamp(20px, 5vw, 57px);
+    font-style: normal;
+    font-weight: 600;
+    /* 113.438% */
+}
+
+.ServiceHomeData h5 {
+    color: var(--white, #FFF);
+
+
+    /* H4 - Semibold */
+    font-family: Poppins;
+    font-size: 19.4px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width:750px) {
+    .-Service{
+        margin-top: 100px;
+    }
+    .-Service h2 {
+        margin-top: 10px;
+    }
+    .Servic img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .ServiceHomeData {
+        left: 20px;
+        bottom: 30px;
+    }
+    .Services{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .Servic img {
+        width: 200px;
+        height: 200px;
+    }
+}

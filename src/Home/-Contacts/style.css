@@ -1,0 +1,170 @@
+.-Contacts {
+    width: 100%;
+    background-color: rgba(108, 108, 204, 0.3);
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    column-gap: 121px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    row-gap: 21px;
+}
+
+.MyCantact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.MyCantact h3 {
+    color: var(--text-colour-2, #2B2B2B);
+
+
+    /* H5 - Buttons */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.LogoHome {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.Contacts h2 {
+    color: var(--text-colour-2, #2B2B2B);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.LogoHome div {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-colour, #3A0CA3);
+    font-size: 25px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.Nomer {
+    display: flex;
+    column-gap: 8px;
+}
+
+.Nomer .fa {
+    color: #3A0CA3;
+}
+
+.Masage {
+    display: flex;
+    column-gap: 8px;
+}
+
+.Masage .fa {
+    color: #3A0CA3;
+}
+
+.Quick {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.Quick ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: var(--text-colour-2, #2B2B2B);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Discovery {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.Discovery ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: var(--text-colour-2, #2B2B2B);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.EmailAddres {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+}
+
+.ContactsInput {
+    width: 350px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 10px 20px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactsInput input {
+    width: clamp(100px, 100%, 270px);
+    height: 100%;
+    border: unset;
+    outline: none;
+}
+
+.ContactsInput button {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: var(--primary-colour, #3A0CA3);
+    border: unset;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.Contacts_Icons {
+    display: flex;
+    column-gap: 10px;
+}
+
+@media screen and (max-width:450px) {
+    .-Contacts {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .-Contacts {
+        justify-content: flex-start;
+    }
+
+    .ContactsInput {
+        width: 250px;
+    }
+}
